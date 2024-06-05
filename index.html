@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-    
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <center><h1> hello world</h1></center>
+  
+  <div id = 'container'>
+  <div>
+    <p> Your tip calculator</p>
+    <!-- <input type = 'text' disabled value ='0' id = 'final'> -->
+    <input id="person-bill" type="text" disabled value="0.00" />
     
-    <script src="script.js"></script>
+    <p> Your total bill </p>
+    <input type ='text' id = 'total-bill' value = '0'>
+
+    <div>
+      <br></br>
+      <span>Your tip percentage</span>
+      <div class="percentage-options">
+        <button class="select item">5%</button>
+        <button class="select item">10%</button>
+        <br>
+        <button class="select item">15%</button>
+        <button class="select item">20%</button>
+        <br>
+        <button class="select item">25%</button>
+       <input type ='text' class ='select item custominput' placeholder='custom' value ='0' > 
+        
+      </div>
+    
+
+  </div>
+    <div>
+    <span>Number of person</span>
+    <br></br>
+      <div class="number">
+        <button id='increment'>+</button>
+        <input type='text' id="num" name="num" value = '0'>
+        <button id='decrement'>-</button>
+      </div>
+    
+        <br> </br>
+        
+      </div>
+    </div>
+    <div id = 'calculate'>
+    <button id = 'calculate'>calculate</button>
+    <button id = 'reset'>Reset</button>
+      
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>

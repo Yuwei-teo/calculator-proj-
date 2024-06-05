@@ -1,15 +1,57 @@
 * {
     margin:0px;
-    
+  
     padding:0px;
     box-sizing: border-box;
-}
-body{
+  }
+  body{
     background-color: #333;
     margin: auto;
-}
-h1{
+  }
+  p{
     color: cyan;
-    font-size: 5em;
+    font-size: 2em;
+    margin: 12px 10px 10px 10px;
+  
+  }
+  span{
+    font-size: 1em;
+    color: red;
+  }
+  
+  #container{
+    background-color: green;
+    padding: 27px 24px 10px 5px;
+    max-width: 585px; 
+    width: 100%;
+    margin:120px auto;
+    border-radius: 15px;
     
-}
+  }
+  
+  #number button {
+    background-color:blue;
+    padding: 10px 10px;
+    font-weight: 600;
+    border-radius:10px ;
+  }
+  
+  #calculate{
+    width: 100%
+    
+  }
+  #num{
+    background-color: grey;
+  }
+  
+  .percentage-options {
+     /* Adjust the width as needed */
+    margin: 5px;
+    padding: 10px;
+     flex: 0 0 500px;
+    
+  }
+  
+  .selected{
+    background-color: red;
+  }
